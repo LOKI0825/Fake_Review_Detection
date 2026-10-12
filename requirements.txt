@@ -1,0 +1,11 @@
+
+flask
+requests
+beautifulsoup4
+lxml
+numpy
+scikit-learn
+nltk
+google-play-scraper
+undetected-chromedriver
+selenium

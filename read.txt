@@ -1,0 +1,98 @@
+Here is a **complete README.txt content** for your project.
+You can copy-paste this directly into your `README.txt` file.
+
+---
+
+# 🛒 Fake Review Detection System
+
+## 📌 Project Title
+
+**Fake Review Detection System for E-Commerce Platforms**
+
+---
+
+## 📖 Project Description
+
+The **Fake Review Detection System** is a Python-based application that detects whether product reviews are **genuine or fake**.
+
+Users can:
+
+1. 🔗 Provide a product URL (from platforms like **Amazon** or **Flipkart**)
+2. 📊 Automatically fetch and analyze all available reviews
+3. 📈 Get percentage of:
+
+   * Genuine Reviews
+   * Fake Reviews
+4. ✍️ Enter their own review manually and check whether it is fake or genuine
+
+The system uses **Natural Language Processing (NLP)** and **Machine Learning (ML)** techniques to classify reviews.
+
+---
+
+## 🎯 Objectives
+
+* Detect spam or fake product reviews
+* Improve trust in online shopping platforms
+* Provide review authenticity percentage
+* Allow manual review verification
+
+---
+
+## 🧠 Technologies Used
+
+* **Python 3.x**
+* **BeautifulSoup** (Web Scraping)
+* **Requests**
+* **Scikit-learn**
+* **Pandas**
+* **NumPy**
+* **NLTK**
+* **Flask (Optional – for Web App UI)**
+
+---
+
+## ⚙️ How The System Works
+
+### Step 1: User Inputs Product URL
+
+User provides a product link from:
+
+* Amazon
+* Flipkart
+
+### Step 2: Review Scraping
+
+The system:
+
+* Extracts product reviews
+* Cleans and preprocesses text
+
+### Step 3: Text Processing
+
+* Lowercasing
+* Removing stopwords
+* Removing punctuation
+* Tokenization
+
+### Step 4: Model Prediction
+
+A trained ML model (e.g., Logistic Regression / Naive Bayes) predicts:
+
+* 1 → Genuine Review
+* 0 → Fake Review
+
+### Step 5: Result Output
+
+System displays:
+
+* Total Reviews
+* Genuine Review Percentage
+* Fake Review Percentage
+* Individual review classification
+
+### Step 6: Manual Review Check
+
+User can type a review manually.
+The system predicts whether it is fake or genuine.
+
+---
